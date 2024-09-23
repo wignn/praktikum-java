@@ -1,11 +1,11 @@
 package pertemuan4;
+
 class Kubus extends Balok {
     double sisi;
     public Kubus(double sisi) {
         super(sisi, sisi, sisi);
         this.sisi = sisi;
     }
-
     @Override
     public double hitungVolume() {
         return sisi * sisi * sisi;
@@ -21,5 +21,6 @@ class Kubus extends Balok {
         System.out.println("luas pemukaan" + hitungLuasPermukaan());
     }
 }
+
 
 

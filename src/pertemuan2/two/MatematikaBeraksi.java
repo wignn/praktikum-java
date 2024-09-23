@@ -1,7 +1,5 @@
 package pertemuan2.two;
 
-import two.Matematika;
-
 public class MatematikaBeraksi {
     public static void main(String[] args) {
         Matematika matematika1 = new Matematika();

@@ -9,5 +9,4 @@ public class MatematikaBeraksi {
         matematika1.pembagian(21, 2);
         matematika1.modulus(5,2);
     }
-
 }

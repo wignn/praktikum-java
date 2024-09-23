@@ -1,5 +1,5 @@
 package pertemuan3.one;
-import contoh_pertemuan2.Matematika;
+import pertemuan3.contoh_pertemuan2.Matematika;
 
 public class Matematika2 extends Matematika {
     public void modulus(int a, int b) {
