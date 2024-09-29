@@ -8,7 +8,6 @@ public class Balok {
         this.panjang = panjang;
         this.lebar = lebar;
         this.tinggi = tinggi;
-
     }
 
     public double hitungVolume() {
