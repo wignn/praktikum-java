@@ -1,16 +1,8 @@
 package pertemuan5.no1;
 
 public class DataMhs {
-
-    private String npm;
-    private String nama;
-    private double nilaiKehadiran;
-    private double nilaiTugas;
-    private double nilaiUts;
-    private double nilaiUas;
-
-    private String grade;
-    private String keterangan;
+    private String npm,nama,grade,keterangan;
+    private double nilaiKehadiran,nilaiTugas,nilaiUts,nilaiUas;
 
     public void setData(String npm, String nama, double nilaiKehadiran, double nilaiTugas, double nilaiUts, double nilaiUas) {
         this.npm = npm;
