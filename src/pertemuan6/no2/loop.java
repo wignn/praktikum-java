@@ -6,7 +6,6 @@ public class loop {
         head(size);
         body(size);
     }
-
     private void head(int size) {
         for (int j = 0; j <= size; j++) {
             if (j == 0) {
