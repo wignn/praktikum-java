@@ -1,4 +1,4 @@
-package pertemuan6.no1;
+package pertemuan7.no1;
 
 public class loop {
 
@@ -49,8 +49,12 @@ public class loop {
 
     public void anakAyam(int put) {
         System.out.println("Lagu 'Anak Ayam Turun N':");
-        for (int n = put; n > 0; n--) {
-            System.out.println("Anak ayam turun " + n);
+        for (int n = 20; n > 0; n--) {
+            if (n > 1) {
+                System.out.println("Anak ayam turun " + n + ", mati satu tinggal " + (n - 1));
+            } else {
+                System.out.println("Anak ayam turun " + n + ", mati satu tinggal induknya.");
+            }
         }
     }
 
